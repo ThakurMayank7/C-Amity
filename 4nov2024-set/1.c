@@ -8,7 +8,7 @@ int main(){
     scanf("%d", &n);
 
     printf("The numbers from n to 1 in reverse order are : \n");
-    while(n>0)
+    while (n > 0)
     {
         printf("%d\n",n);
         n--;

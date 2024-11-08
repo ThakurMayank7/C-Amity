@@ -6,7 +6,7 @@ int main(){
     int sum = 0;
     for (int i = 1; i <=10; i++)
     {
-        if(i%2==0)  //cheking even numbers
+        if (i % 2 == 0) // cheking even numbers
         {
             sum+=i;   //if even adding it to sum variable
         }
