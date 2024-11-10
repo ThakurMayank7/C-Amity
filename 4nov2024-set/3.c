@@ -20,3 +20,16 @@ int main(){
     printf("The last digit of the current number is %d\n", n % 10);
     return 0;
 }
+
+//  another way of solving this question
+int method2(int n)
+{
+    int last=n%10;
+    int reverse=0;
+    for (int i = n; i >0; i/=10)
+    {
+        reverse=reverse*10+i%10;
+    }
+    int last=reverse%10;
+    return n;
+}
