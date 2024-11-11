@@ -15,32 +15,28 @@
 #include <stdio.h>
 
 int main(){
-
     int counter=9;
-    int n=1;
+    int n=5;
     while (counter>=1)
     {
-        for(int i=n; i>=1; i--){
+        for(int i=n; i<=5; i++){
             printf(" ");
         }
-        for(int i=n;i>=1;i--)
+        for(int i=1;i<=n;i++)
         {
             printf("%d ",i);
         }
-
-n--;
+        printf("\n");
         
-
-        
-        counter--;
-    }
-    
-    for (int i = 0; i < 9; i++)
-    {
-        for(int j=1;j<=5;j++){
-
+        if(counter>5)
+        {
+            n--;
         }
-    }
-    
+        if(counter<=5)
+        {
+            n++;
+        }  
+        counter--;
+    }    
     return 0;
 }
