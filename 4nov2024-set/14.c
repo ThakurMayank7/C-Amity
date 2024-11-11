@@ -1,12 +1,14 @@
 //  Write a program to print a rhombus in a star pattern
 
 /*
+
+     * * * * *
+    * * * * *
+   * * * * *
+  * * * * *
  * * * * *
- * * * * *
- * * * * *
- * * * * *
- * * * * *
- */
+
+*/
 
 #include <stdio.h>
 
