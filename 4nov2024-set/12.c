@@ -1,4 +1,5 @@
 //  Write a program to print a right angled triangle with a number pattern
+
 /*
     1
     12
