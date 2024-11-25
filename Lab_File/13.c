@@ -1,6 +1,7 @@
 // Write a program to calculate the root of a Quadratic Equation
 
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
