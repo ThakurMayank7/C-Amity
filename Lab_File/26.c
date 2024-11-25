@@ -16,11 +16,9 @@ int main()
         }
         else // odd term
         {
-
             sum += (1.0 / i);
         }
     }
     printf("The sum of N terms of the series is : %f\n", sum);
-
     return 0;
 }
