@@ -1,4 +1,4 @@
-// 64. Declare a structure name student containing members name, roll_no, marks. Create an array of 30 such students. Write a program to read and display the contents of array.
+// Declare a structure name student containing members name, roll_no, marks. Create an array of 30 such students. Write a program to read and display the contents of array.
 
 #include <stdio.h>
 
