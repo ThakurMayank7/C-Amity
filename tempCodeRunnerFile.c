@@ -1,4 +1,5 @@
-a program in C to print the following pattern:
-// 1
-// 2 2
-// 3 3 3
+= 5; j >=i-1; j--)
+        // {
+        //     printf("%d\t", j);
+        // }
+        // printf("\n");
